@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+.bg-orange {
+  background-color: #f97a1f;
+}
+
+.navbar-brand {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ffffff !important;
+}
+
+.tengah {
+  justify-content: center !important;
+  margin-left: 20%;
+}
+
+a.nav-link:hover {
+  background-color: #79390c !important;
+}
+
+.btn-orange {
+  background-color: #f97a1f !important;
+  border: 1px solid #f97a1f !important;
+  color: #ffffff;
+}
+
+.btn-orange:hover {
+  background-color: #c57d4a !important;
+  border: 1px solid #c57d4a !important;
+  color: #ffffff;
+}
+
+.btn-info {
+  background-color: #79390c !important;
+  border-color: #79390c;
+}
+
+.dish-card .card-body {
+  background-color: #fcaf69;
+}
+
+.card-about {
+  background-color: #fcaf69 !important;
+}
+
+.warna-text {
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.round-kat {
+  border-radius: 12px;
+  background-color: #fcaf69;
+}
+
+.card-img-top {
+  width: 80% !important;
+  height: 80% !important;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.btn-moca {
+  background-color: #79390c;
+}
+
+.logo {
+  top: 0px;
+  left: 300px;
+  width: 50px;
+  border-radius: 90px;
+  display: inline-block !important;
+}
+
+.card-new {
+  height: 150%;
+}
+
+#transisi {
+  line-height: 28px;
+  transform: translateY(300px);
+  animation: slideUp 0.8s ease-in-out forwards 0.8s;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(500px) scale(0.2);
+  }
+  100% {
+    transform: translateX(0px) scale(1);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(300px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes expand {
+  0% {
+    transform: translateX(1400px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
